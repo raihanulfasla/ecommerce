@@ -161,7 +161,7 @@ function Product() {
                   <tr key={index} className="text-center">
                     <td>
                       {
-                        productPic && <img className="w-[200px] h-[100px] rounded-lg object-contain" src={`http://localhost:3000/api/images/uploads/${productPic}`} alt="" /> 
+                        productPic && <img className="w-[150px] h-[90px] rounded-lg object-contain" src={`http://localhost:3000/api/images/uploads/${productPic}`} alt="" /> 
                       }
                       
                     </td>

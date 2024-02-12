@@ -29,7 +29,7 @@ function SideBar() {
           <NavLink to={"/admin/payment"}> Payments </NavLink>
         </li>
         <li className=" text-lg rounded-xl my-1 w-[90%] m-auto px-9 py-3 hover:bg-slate-100">
-          <NavLink to={"/admin/users"}> Users </NavLink>
+          <NavLink to={"/admin/users"}> ProductView </NavLink>
         </li>
         <li className=" text-lg rounded-xl my-1 w-[90%] m-auto px-9 py-3 hover:bg-slate-100">
           <NavLink onClick={logoutAdmin} > Logout </NavLink>
