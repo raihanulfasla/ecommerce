@@ -78,10 +78,13 @@ function Login() {
             className={`${className} max-w-[300px] w-[80%] h-[40px] bg-white flex justify-start ps-5 rounded-md items-center`}
           />
         ))}
+
+        <NavLink to={'/'}>
         <input
           type="submit"
           className="text-white border-solid border-2 border-indigo-600 w-[4  0%]"
         />
+        </NavLink>
         <NavLink to={'/admin-register'}>
         <p className="text-white text-xs underline "> Signup  </p>
         </NavLink>

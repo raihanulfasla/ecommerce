@@ -12,6 +12,7 @@ import Protected from "./admin/Protected/Protected";
 import UserHome from "./user/User";
 import UserRegister from "./user/Register/Register";
 import UserLogin from "./user/Login/Login";
+import Detail from "./components/details/Detail";
 
 
 
@@ -70,6 +71,11 @@ function App() {
       path: "admin-login",
       element: <AdminLogin />,
     },
+    {
+      path: "detail/:itemId",
+      element: <Detail />,
+    },
+    
   ]);
 
   return <RouterProvider router={router} />;
